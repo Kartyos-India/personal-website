@@ -34,7 +34,7 @@ p{
     padding-top: 100px;
 }
 
-.mid-container {
+.middle-container {
     background-color:white;
     margin: 100px 0;
 }
@@ -151,3 +151,62 @@ hr{
     border-radius: 20px;
     text-decoration: none;
  }
+
+
+
+
+ .project {
+    margin-top: 50px;
+}
+
+.project-description {
+    text-align: justify;
+    font-size: 18px; /* Increase font size as needed */
+    line-height: 1.6; /* Adjust line height as needed */
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(79, 213, 168);
+}
+
+.project-description .project-title {
+    font-weight: bold; /* Apply bold font to project title */
+    font-size: 28px; /* Increase font size for project title */
+    display: inline-block; /* Ensures vertical alignment */
+    vertical-align: middle; /* Aligns the text vertically */
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #11999E;
+}
+
+.project-video {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 20px;
+    display: flex;
+    margin-left: 30px;
+}
+
+.video-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 640px; /* Adjust width as needed */
+    height: 360px; /* Adjust height as needed */
+    border-radius: 10px; /* Add border radius for rounded corners */
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px; /* Add border radius for rounded corners */
+}
+
+.project-description {
+    text-align: center;
+    line-height: 1.5;
+    width: 50%;
+}
